@@ -10,6 +10,11 @@ The OpenAI Node.js library provides convenient access to the OpenAI API from Nod
 $ npm install openai
 ```
 
+# Make .env file
+```
+OPENAI_API_KEY=
+```
+
 ## Usage
 
 The library needs to be configured with your account's secret key, which is available on the [website](https://beta.openai.com/account/api-keys). We recommend setting it as an environment variable. Here's an example of initializing the library with the API key loaded from an environment variable and creating a completion:
